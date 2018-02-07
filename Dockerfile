@@ -1,3 +1,4 @@
-FROM circleci/python:2.7.14
+FROM circleci/python:3.6.4-stretch
 
-RUN sudo pip install pipenv
+RUN pip3 install pip --upgrade
+RUN sudo pip3 install pipenv --upgrade
