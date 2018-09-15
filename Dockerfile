@@ -1,3 +1,3 @@
-FROM circleci/python:3.6.4-stretch
+FROM circleci/python:2-jessie-browsers
 
-RUN sudo pip3 install pip pipenv --upgrade
+RUN sudo pip install pip pipenv --upgrade
